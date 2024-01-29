@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="web-icon" href="imagenes/logo.png">
+  <title>ENIGMA</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <h1 class="titulo">ENIGMA.</h1>
+    </header>
+  <main class="main">
+    <section class="form-box">
+      <form id="formulario">
+        <label for="input-texto">Solo letras minúsculas, sin acentos</label>
+        <textarea class="text-input" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui" rows="15" cols="20"></textarea>
+        <div class="button-container">
+          <input class="btn" type="submit" value="Encriptar texto" id="btn-encriptar">
+          <input class="btn" type="submit" value="Desencriptar texto" id="btn-desencriptar">
+        </div>
+      </form>
+    </section>
+  
+    <section class="msg-box">
+      <label for="mensaje-texto">Mensaje encriptado:</h2></label>
+      <textarea class="text-input" name="mensaje-texto" id="mensaje-texto"rows="15" cols="20" placeholder="Aquí aparecerá el texto encriptado" readonly></textarea>              
+      <input class="btn" type="submit" value="Copiar texto" id="btn-copy">
+    </section>
+  </main>
+
+  <footer>
+    <img src="imagenes/footer.png" id="fox">
+    <p class="copyright">Copyright &copy 2024 BitFox - Todos los derechos reservados.</p>
+</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
