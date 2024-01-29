@@ -31,7 +31,7 @@ header h1 {
 }
   
   body {
-    background-color: #000000;
+     background: linear-gradient(to top, #000000, #ffffff);
     background-repeat: no-repeat;
     background-size: auto; 
     font-family: 'Krub', sans-serif;
